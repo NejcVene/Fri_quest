@@ -2,7 +2,7 @@
   Fri_quest
 </h1>
 <p>
-  A game for the FRI-SMS development platform. Developed using WinIdea as a project for module OR at FRI.
+  A game for the FRI-SMS development platform. Developed using WinIdea as a project for module OR at FRI. The actual program is contained in start.s
 </p>
 
 <h3>
