@@ -96,13 +96,6 @@ _main:
 
 /* user code here */
 
-/*
-PODPROGRAMI:
-  PRINT_INIT()
-  PRINT_SEND(kazalec na niz, ki se poslje; bool, ki pove, ce je nova vrstica ali ne (1 je, 0 ni - default)) -> pomozne funkcije: PRINT(znak, ki se poslje)
-  PRINT_GET(kazalec, kam se shrani) -> pomozne funkcije: GET(znak, ki ga dobimo)
-*/
-
   mov r10, #8
   /* Init DBGU */
   bl PRINT_INIT
@@ -211,7 +204,7 @@ PRINT_SEND:
   mov r2, r0
 MAIN_LOOP_PRINT:
   ldrb r0, [r2], #1
-  cmp r0, #0 @ check for end of string (asciz konca niz s 0)
+  cmp r0, #0 @ check for end of string
   beq END_PRINT
   bl PRINT
   b MAIN_LOOP_PRINT
