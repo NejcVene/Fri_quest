@@ -1,0 +1,10 @@
+CONVERTING	F:\Nejc\Projekti\FRISMS\Rev2\Debug\asmpr1.elf
+LOADING	F:\Nejc\Projekti\FRISMS\Rev2\Debug\asmpr1.elf
+ANALYZING
+ANALYZING
+EMULATION	POD: ARM9   CPU: ARM926EJS
+LOADING 	2464 bytes
+VERIFYING
+	FILE: asmpr1.elf  AREA: Virtual
+	Verifying 09A0h locations from 0000h
+	Verify OK

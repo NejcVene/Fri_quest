@@ -1,0 +1,10 @@
+********  Configuration Information File *******
+
+--------------- Version ------------------------
+winIDEA:       Build 9.12.225  (9/4/2015)
+
+--------------- Settings -----------------------
+Workspace:     C:\winIDEA\Delo\FRI_SMS_2015\asmpr1.jrf
+IDE Load:      C:\Users\R\AppData\Roaming\ASYST\winIDEA\winIDEA.xtrf
+OS:            Windows NT 6.2 Build 9200 
+
